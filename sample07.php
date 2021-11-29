@@ -1,10 +1,9 @@
 <?php
 $i = 1;
-echo $i;
 
-while($i<366):
+while($i<30):
+    echo $i."日\n";
     $i=$i+1;
-    echo $i."\n";
-endwhile;
 
+endwhile;
 ?>
