@@ -1,8 +1,10 @@
 <?php
+
 $i = 1;
 
-while($i<30):
-    echo $i."日\n";
+while($i<300):
+
+    echo $i."\n";
     $i=$i+1;
 
 endwhile;
